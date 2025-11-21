@@ -8,8 +8,8 @@ if(!isset($_SESSION['admin_id'])){
 }
 
 // Connexion à la base de données
-require_once 'db.php';
 
+require_once 'config.php';
 // Récupération des commandes avec informations client
 $query = "SELECT c.*, cl.nom, cl.prenom, cl.email, cl.telephone 
           FROM commande c 

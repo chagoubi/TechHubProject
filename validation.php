@@ -3,8 +3,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 session_start();
-include 'db.php';
-
+include 'config.php'
 // Vérifier si client connecté
 if(!isset($_SESSION['client_id'])){
     header("Location: login.php");

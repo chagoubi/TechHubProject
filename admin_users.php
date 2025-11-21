@@ -8,8 +8,7 @@ if(!isset($_SESSION['admin_id'])){
 }
 
 // Connexion à la base de données
-require_once 'db.php';
-
+require_once 'config.php'
 // Traitement des actions (Supprimer, Modifier)
 if(isset($_GET['action']) && isset($_GET['id'])){
     $id = intval($_GET['id']);

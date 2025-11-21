@@ -5,7 +5,7 @@ ini_set('display_errors', 1);
 echo "<h2>Test de connexion</h2>";
 
 // Tester la connexion
-include 'db.php';
+include 'config.php'
 
 if($conn){
     echo "✅ Connexion à la base de données OK !<br><br>";

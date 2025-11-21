@@ -3,8 +3,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 session_start();
-include 'db.php';
-
+include 'config.php'
 if(isset($_POST['login'])){
     $email = secure_input($_POST['email']);
     $pass  = $_POST['motdepasse'];

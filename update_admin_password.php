@@ -1,6 +1,5 @@
 <?php
-include 'db.php';
-
+include 'config.php'
 $email = "ranya.chagoubi@techhub.tn";
 $new_password = "admin123";
 
