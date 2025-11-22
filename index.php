@@ -3,7 +3,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 session_start();
-include 'config.php'
+include 'config.php';  // ✅ ZID HETHI!
 // Vérifier si client connecté
 if(!isset($_SESSION['client_id'])){
     header("Location: login.php");
