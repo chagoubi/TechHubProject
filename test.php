@@ -4,8 +4,7 @@ ini_set('display_errors', 1);
 
 echo "<h2>Test de connexion</h2>";
 
-// Tester la connexion
-include 'config.php'
+include 'db_railway.php';
 
 if($conn){
     echo "✅ Connexion à la base de données OK !<br><br>";
