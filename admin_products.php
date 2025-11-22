@@ -8,7 +8,7 @@ if(!isset($_SESSION['admin_id'])){
 }
 
 // Connexion à la base de données
-require_once 'config.php'
+require_once 'db.php';
 
 // Traitement des actions
 if(isset($_GET['action']) && isset($_GET['id'])){

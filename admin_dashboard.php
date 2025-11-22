@@ -14,8 +14,8 @@ if(isset($_GET['logout'])){
     exit();
 }
 
-require_once 'db.php';  // ← Hethi ligne bech nbaddlouha
-// ... bé9i code mta3 page
+// Connexion à la base de données
+require_once 'db.php';
 ?>
 <!DOCTYPE html>
 <html lang="fr">

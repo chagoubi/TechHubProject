@@ -8,7 +8,8 @@ if(!isset($_SESSION['admin_id'])){
 }
 
 // Connexion à la base de données
-require_once 'config.php'
+require_once 'db.php';
+
 // Statistiques générales
 $stats_general = $conn->query("SELECT 
     COUNT(DISTINCT c.id) as total_commandes,
